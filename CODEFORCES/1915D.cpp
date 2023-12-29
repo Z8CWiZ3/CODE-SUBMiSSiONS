@@ -89,6 +89,40 @@ void z8cwiz3()
             cout << '.';
     }
     cout << en;
+
+    /*
+    int n;
+    cin >> n;
+    str s;
+    cin >> s;
+    str res = "";
+    int l_idx = n - 1;
+    while (l_idx >= 0)
+    {
+        if (s[l_idx] == 'a' || s[l_idx] == 'e')
+        {
+            res += s[l_idx];
+            l_idx--;
+            res += s[l_idx];
+            l_idx--;
+            res += ".";
+        }
+        else
+        {
+            res += s[l_idx];
+            l_idx--;
+            res += s[l_idx];
+            l_idx--;
+            res += s[l_idx];
+            l_idx--;
+            res += ".";
+        }
+    }
+    res.pop_back();
+    reverse(entire(res));
+    cout << res;
+    cout << en;
+    */
 }
 
 // || ------------------------------------------------- || //
