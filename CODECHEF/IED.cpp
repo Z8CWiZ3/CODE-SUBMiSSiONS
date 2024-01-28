@@ -130,6 +130,13 @@ bool is_palindrome(const str &S)                {return equal(S.begin(),\
 
 // || ------------------------------------------------------------- || //
 
+int res_value(int res_a, int res_b, int res_c)
+{
+    return abs(res_a - res_b) + abs(res_b - res_c) + abs(res_c - res_a);
+}
+
+// || ------------------------------------------------------------- || //
+
 void z8cwiz3()
 {
     int a, b, c;
