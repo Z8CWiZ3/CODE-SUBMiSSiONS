@@ -249,11 +249,11 @@ void z8cwiz3()
         if (l & r)
             v_p.pb({abs(n - i * 2), i});
     }
-    if (v_p.mt)
-    {
-        CE(0);
-        return;
-    }
+    // if (v_p.mt)
+    // {
+    //     CE(0);
+    //     return;
+    // }
     srt(v_p);
     ll res_pos = v_p.ft.sc;
     CE(res_pos);
