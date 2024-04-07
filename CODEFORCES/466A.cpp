@@ -219,6 +219,18 @@ void z8cwiz3()
     else
         res_sum = (n * x);
     C(res_sum);
+
+    // ll n, k, x, y;
+    // cin >> n >> k >> x >> y;
+    // if (x * k <= y)
+    // {
+    //     C(n * x);
+    //     return;
+    // }
+    // ll res_x = (((n / k) * y) + ((n % k) * x));
+    // ll res_y = (((n / k) * y) + (y));
+    // C(min(res_x, res_y));
+
 }
 
 // || ------------------------------------------------------------- || //
